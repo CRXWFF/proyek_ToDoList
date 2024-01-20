@@ -1,0 +1,65 @@
+body {
+  background-color: #49b749;
+  font-family: "Montserrat", "Sans-Serif";
+}
+
+.todo-wrapper {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 15px;
+  padding: 25px;
+  font-weight: 500;
+}
+
+.todo-wrapper h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.todo-wrapper p {
+  font-syle: italic;
+  color: grey;
+}
+
+.todo-wrapper ol {
+  margin: 20px 0;
+}
+
+.todo-wrapper ol li {
+  margin: 5px 0;
+  padding: 3px;
+  transition: all 0.5s ease-out;
+}
+
+.todo-wrapper form {
+  display: inline-block;
+}
+
+.todo-wrapper input {
+  padding: 3px 5px;
+}
+
+.todo-wrapper .button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.todo-wrapper .button {
+  margin: 10px 2px;
+  color: white;
+  background-color: #0094d5;
+  border-radius: 15px;
+  padding: 5px 20px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  font-size: small;
+}
+
+.todo-wrapper .input-box {
+  border-radius: 15px;
+  border: 0.5px solid;
+}
