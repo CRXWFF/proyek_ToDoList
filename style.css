@@ -5,8 +5,8 @@ body {
 
 .todo-wrapper {
   margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 100px;
+  margin-right: 100px;
   background-color: white;
   border-radius: 15px;
   padding: 25px;
@@ -62,4 +62,17 @@ body {
 .todo-wrapper .input-box {
   border-radius: 15px;
   border: 0.5px solid;
+}
+
+#empty-button {
+  background-color: #ff4d4d;
+}
+
+#empty-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#save-button {
+  background-color: #49b749;
 }
